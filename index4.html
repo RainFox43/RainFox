@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math Solver</title>
+  <style>
+    body {
+      background-image: url('background.jpg');
+      background-size: cover;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .input-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .input-label {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .input-field {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    .solve-button {
+      padding: 10px 20px;
+      background-color: #4285F4;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .answer-box {
+      font-size: 24px;
+      font-weight: bold;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+    }
+
+    .result {
+      margin-bottom: 10px;
+    }
+  </style>
+  <script>
+    function solveEquation() {
+      var equationInput = document.getElementById('equation-input');
+      var equation = equationInput.value;
+
+      var answerBox = document.getElementById('answer-box');
+      answerBox.innerHTML = ''; // Clear previous results
+
+      try {
+        var result = eval(equation);
+        var resultElement = document.createElement('div');
+        resultElement.className = 'result';
+        resultElement.textContent = 'Answer: ' + result;
+        answerBox.appendChild(resultElement);
+      } catch (error) {
+        var errorElement = document.createElement('div');
+        errorElement.className = 'result';
+        errorElement.textContent = 'Error: Invalid equation';
+        answerBox.appendChild(errorElement);
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">Math Solver</h1>
+    <div class="input-container">
+      <label class="input-label">Enter Equation:</label>
+      <input type="text" id="equation-input" class="input-field" placeholder="e.g., 2 + 2">
+    </div>
+    <button class="solve-button" onclick="solveEquation()">Solve</button>
+    <div id="answer-box" class="answer-box"></div>
+  </div>
+</body>
+</html>
