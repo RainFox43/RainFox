@@ -5,18 +5,18 @@ const games = [
       description: 'Counter-Strike: Global Offensive (CS: GO) expands upon the team-based action gameplay that it pioneered when it was launched 19 years ago. CS: GO features new maps, characters, weapons, and game modes, and delivers updated versions of the classic CS content (de_dust2, etc.).',
       steamLink: 'https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/'
     },
-    { 
+    {
       title: 'Poppy Playtime',
       description: 'You must stay alive in this horror/puzzle adventure. Try to survive the vengeful toys waiting for you in the abandoned toy factory. Use your GrabPack to hack electrical circuits or nab anything from afar. Explore the mysterious facility... and dont get caught.',
       steamLink: 'https://store.steampowered.com/app/1721470/Poppy_Playtime/'
     },
     // Add more game objects as needed
-      {
+    {
       title: 'Apex Legends™',
       description: 'Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale',
       steamLink: 'https://store.steampowered.com/app/1172470/Apex_Legends/'
-      },
-    
+    },
+
     {
       title: 'PUBG: BATTLEGROUNDS',
       description: 'Play PUBG: BATTLEGROUNDS for free. Land on strategic locations, loot weapons and supplies, and survive to become the last team standing across various, diverse Battlegrounds. Squad up and join the Battlegrounds for the original Battle Royale experience that only PUBG: BATTLEGROUNDS',
