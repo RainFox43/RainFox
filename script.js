@@ -11,6 +11,65 @@ const games = [
       steamLink: 'https://store.steampowered.com/app/1721470/Poppy_Playtime/'
     },
     // Add more game objects as needed
+      {
+      title: 'Apex Legends™',
+      description: 'Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale',
+      steamLink: 'https://store.steampowered.com/app/1172470/Apex_Legends/'
+      },
+    
+    {
+      title: 'PUBG: BATTLEGROUNDS',
+      description: 'Play PUBG: BATTLEGROUNDS for free. Land on strategic locations, loot weapons and supplies, and survive to become the last team standing across various, diverse Battlegrounds. Squad up and join the Battlegrounds for the original Battle Royale experience that only PUBG: BATTLEGROUNDS',
+      steamLink: 'https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/'
+    },
+
+    {
+      title: 'Destiny 2',
+      description: 'Destiny 2 is an action MMO with a single evolving world that you and your friends can join anytime, anywhere, absolutely free.',
+      steamLink: 'https://store.steampowered.com/app/1085660/Destiny_2/'
+    },
+
+    {
+      title: 'Dota 2',
+      description: 'Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if its their 10th hour of play or 1,000th, theres always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.',
+      steamLink: 'https://store.steampowered.com/app/570/Dota_2/'
+    },
+
+    {
+      title: 'Warframe',
+      description: 'Awaken as an unstoppable warrior and battle alongside your friends in this story-driven free-to-play online action game',
+      steamLink: 'https://store.steampowered.com/app/230410/Warframe/'
+    },
+
+    {
+      title: 'STAR WARS™: The Old Republic™',
+      description: 'STAR WARS™: The Old Republic™ is a free-to-play MMORPG that puts you at the center of your own story-driven saga. Play as a Jedi, Sith, Bounty Hunter, or one of many other iconic STAR WARS roles in the galaxy far, far away over three thousand years before the classic films.',
+      steamLink: 'https://store.steampowered.com/app/1286830/STAR_WARS_The_Old_Republic/'
+    },
+
+    {
+      title: 'MARVEL SNAP',
+      description: 'Assemble your MARVEL dream team from a super roster of your favorite heroes and villains. MARVEL SNAP is fast-paced, adrenaline-pumping, strategic card battler that puts you in control of it all - make your move.',
+      steamLink: 'https://store.steampowered.com/app/1997040/MARVEL_SNAP/'
+    },
+
+    {
+      title: 'Team Fortress 2',
+      description: 'Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!',
+      steamLink: 'https://store.steampowered.com/app/440/Team_Fortress_2/'
+    },
+
+    {
+      title: 'The Sims™ 4',
+      description: 'Play with life and discover the possibilities. Unleash your imagination and create a world of Sims that’s wholly unique. Explore and customize every detail from Sims to homes–and much more.',
+      steamLink: 'https://store.steampowered.com/app/1222670/The_Sims_4/'
+    },
+
+    {
+      title: 'Minecraft',
+      description: 'There are not so many good Minecraft launchers nowadays, and yet they exist TLauncher being one of them.',
+      steamLink: 'https://tlauncher.org/en/'
+    },
   ];
   
   // Function to generate game content dynamically
